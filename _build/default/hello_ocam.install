@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/hello_ocam/META"
+  "_build/install/default/lib/hello_ocam/dune-package"
+  "_build/install/default/lib/hello_ocam/opam"
+]
+bin: [
+  "_build/install/default/bin/hello_ocam"
+]

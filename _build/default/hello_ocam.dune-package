@@ -1,0 +1,4 @@
+(lang dune 3.15)
+(name hello_ocam)
+(sections (lib .) (bin ../../bin))
+(files (lib (META dune-package opam)) (bin (hello_ocam)))

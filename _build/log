@@ -1,0 +1,18 @@
+# dune exec hello_ocam -w
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/asrat/.cache/dune/db
+# Workspace root: /Users/asrat/HOME/self/oCam/hello_ocam
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/asrat/.opam/default/bin/ocamlc.opt -config > /var/folders/8l/fkf7n2yd2k70_kh8dfwjrd780000gn/T/dune_08e959_output
+$ (cd _build/default && /Users/asrat/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.hello_ocam.objs/byte -I lib/.hello_ocam.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
+$ (cd _build/default && /Users/asrat/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o bin/main.exe lib/hello_ocam.cmxa bin/.main.eobjs/native/dune__exe__Main.cmx)
